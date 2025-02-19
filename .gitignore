@@ -128,3 +128,7 @@ Pipfile.lock
 .github/binja/BinaryNinja-headless.zip
 justfile
 data/
+
+#Nix stuff
+result/
+result
