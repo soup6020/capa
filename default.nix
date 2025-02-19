@@ -18,7 +18,8 @@ in
       python = nixpkgs.python3;
     };
 
-  inherit (pyproject.project) name version;
+  name = "capa";
+  version = "9.0.0";
 
   mkDerivation = {
     src = lib.cleanSourceWith {
